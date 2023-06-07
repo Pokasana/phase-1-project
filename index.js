@@ -24,12 +24,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         ul.appendChild(li);
         container.appendChild(ul);
 
-        function hoverEvent(element) {
-            element.addEventListener('mouseover', (e) => {
-                e.target.setAttribute('style', )
-            })
-        }
-
         function clickEvent(element, data) {
             element.addEventListener('click', () => {
                 displayMovie(data);
