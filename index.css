@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.movie-list-container {
+    width: 50%;
+    margin: auto;
+    background-color: pink;
+}
+
+.movie-package {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(197, 146, 255);
+}
+
+.movie-list-container ul li {
+    width: fit-content;
+    margin: auto;
+    text-indent: -2.4em;
+}
+
+ul {
+    list-style-type: none;
+}
+
