@@ -1,19 +1,58 @@
 {
-  "posts": [
+  "movies": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Diva",
+      "director": "Jean-Jacques Beineix",
+      "year": "1981"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "Betty Blue",
+      "director": "Jean-Jacques Beineix",
+      "year": "1986"
+    },
+    {
+      "id": 3,
+      "title": "Gummo",
+      "director": "Harmony Korine",
+      "year": "1997"
+    },
+    {
+      "id": 4,
+      "title": "Julien Donkey-Boy",
+      "director": "Harmony Korine",
+      "year": "1999"
+    },
+    {
+      "id": 5,
+      "title": "Hedwig and the Angry Inch",
+      "director": "John Cameron Mitchell",
+      "year": "2001"
+    },
+    {
+      "id": 6,
+      "title": "Chungking Express",
+      "director": "Wong Kar-Wai",
+      "year": "1994"
+    },
+    {
+      "id": 7,
+      "title": "Fallen Angels",
+      "director": "Wong Kar-Wai",
+      "year": "1995"
+    },
+    {
+      "id": 8,
+      "title": "In the Mood for Love",
+      "director": "Wong Kar-Wai",
+      "year": "2000"
+    },
+    {
+      "id": 9,
+      "title": "Ghost World",
+      "director": "Terry Zwigoff",
+      "year": "2001"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
