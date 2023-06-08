@@ -21,15 +21,28 @@ window.addEventListener("DOMContentLoaded", (event) => {
         const li = document.createElement('li');
         li.textContent = movie.title;
         // li.setAttribute('role', 'button');
+        highlightEvent(li);
         clickEvent(li, displayMovie, movie);
         ul.appendChild(li);
         container.appendChild(ul);
 
+        //Helper function
+        //Click event
         function clickEvent(element, func, data) {
             element.addEventListener('click', () => {
                 func(data);
             })
-        }
+        };
+        //Mouseover event
+        function highlightEvent(element) {
+            element.addEventListener('mouseover', (e) => {
+                e.target.style.fontWeight = 'bold';
+
+                setTimeout(() => {
+                    e.target.style.fontWeight = ''
+                }, 500);
+            });
+        };
     };
 
     function displayMovie(movie) {

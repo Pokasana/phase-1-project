@@ -26,11 +26,6 @@ p {
     text-indent: -2.4em; 
 }
 
-.movie-list-container ul li:hover {
-    font-weight: bold;
-}
-
-
 ul {
     list-style-type: none;
 }
