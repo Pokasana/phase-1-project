@@ -46,8 +46,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
         function clearPackage() {
             const package = document.querySelector('div.movie-package');
-            console.log(package);
-            console.log(package.firstElementChild);
             while (package.firstElementChild) {
                 package.firstElementChild.remove();
             };
