@@ -52,7 +52,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         const title = document.createElement('p');
         const director = document.createElement('p');
         const year = document.createElement('p');
-        title.textContent = movie.title;
+        title.textContent = `'${movie.title}'`;
         director.textContent = movie.director;
         year.textContent = movie.year;
         package.append(title, director, year);
