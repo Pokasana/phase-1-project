@@ -16,6 +16,7 @@ p {
 .movie-package {
     width: 50%;
     margin: auto;
+    padding: 20px 0;
     text-align: center;
     background-color: rgb(197, 146, 255);
 }
@@ -23,7 +24,8 @@ p {
 .movie-list-container ul li {
     width: fit-content;
     margin: auto;
-    text-indent: -2.4em; 
+    text-indent: -2.4em;
+    font-size: 20px;
 }
 
 ul {
