@@ -3,15 +3,26 @@ window.addEventListener("DOMContentLoaded", (event) => {
     loadData('http://localhost:3000/movies')
     .then(data => {
         console.log(data);
-        data.forEach(item => createMovieList(item));
-    })
+        moviePackageText();
+        data.forEach(item => {
+            createMovieList(item);
+        });
+    });
 
     //Functions
     //Fetch
     function loadData(url) {
         return fetch(url)
         .then(res => res.json())
-    }
+    };
+
+    //Add the initial appearance of movie package
+    function moviePackageText() {
+    const package = document.querySelector('.movie-package');
+    const message = document.createElement('h2');
+    message.textContent = 'Select movie from the list';
+    package.appendChild(message);
+    };
 
     //Create a list of movies
     function createMovieList(movie) {
@@ -25,12 +36,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         clickEvent(li, displayMovie, movie);
         ul.appendChild(li);
         container.appendChild(ul);
-
-        //Add the initial appearance of movie package
-        const package = document.querySelector('.movie-package');
-        const message = document.createElement('h2');
-        message.textContent = 'Select movie from the list';
-        package.appendChild(message);
 
         //Helper function
         //Click event
@@ -50,6 +55,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
             });
         };
     };
+
+    //
 
     function displayMovie(movie) {
         clearPackage();
