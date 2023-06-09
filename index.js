@@ -26,6 +26,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
         ul.appendChild(li);
         container.appendChild(ul);
 
+        //Add the initial appearance of movie package
+        const package = document.querySelector('.movie-pacage');
+        const message = document.createElement('h3');
+
         //Helper function
         //Click event
         function clickEvent(element, func, data) {
