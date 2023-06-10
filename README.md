@@ -1,8 +1,9 @@
-# Phase 1 Project -  Memory Game
-- here are 10 pares of cards placed face down individually on the page
-- The player opens 2 cards in one try to memorize where each cards are placed and match two cards
-- Once the player finds all the pairs of cards, a message will pop up
-- Player can reset the game(generate new pairs of cards) *Fisher–Yates shuffle
+# Phase 1 Project -  My Favorite Movie List
+
+##Feature of the My Favorite Movie List
+- This is a single page app to inroduce my favorite movies to the user
+- There is a list of 10 movies
+- By clicking one of the titles, user can see the minimal information about the selected movie - title, director and the year it went on screen.
 
 # How it works
 - When the start button is clicked, cards appear on the screen
