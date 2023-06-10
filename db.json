@@ -53,6 +53,12 @@
       "title": "Ghost World",
       "director": "Terry Zwigoff",
       "year": "2001"
+    },
+    {
+      "id": 10,
+      "title": "Rushmore",
+      "director": "Wes Anderson",
+      "year": "1998"
     }
   ]
 }
