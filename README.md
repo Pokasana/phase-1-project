@@ -1,12 +1,10 @@
 # Phase 1 Project -  My Favorite Movie List
+This is a work for phase 1 project. I focused on keeping the structure as simple as possible to make required features that I added to this app easy to be shown.
 
 # Feature of the My Favorite Movie List
-- This is a single page app to inroduce my favorite movies to the user
+- Single page app to inroduce my favorite movies to the user
 - There is a list of 10 movies
 - By clicking one of the titles, user can see the minimal information about the selected movie - title, director and the year it went on screen.
-
-# What are included in the code
-- Data access from a db.json file by using json-server
 
 # Data and how it is handled
 - Asynchronous data handling by useing JSON
@@ -20,6 +18,3 @@ The code includes...
     'DOMContentLoaded' - Load all the data when the page was opened.
     'Mouseover' - Make the movie title bold when the mouse is on to make it easier for the user to see which item they are about to choose.
     'Click' - The information for the clicked movie is displayed in the box below the list of movies.
-
-## API
-Using db.json file
