@@ -7,13 +7,18 @@
 
 #What are included in the code
 - Data access from a db.json file by using json-server
-- 10 objects with 3 attributes in db.json
+
+#Data and how it is handled
 - Asynchronous data handling by useing JSON
+- db.json has 10 movies that each of them has three items, title, director and year
+
+
+- 10 objects with 3 attributes in db.json
+- one instance of array iteration - forEach
 - 3 event listeners: 
     'DOMContentLoaded' - Load all the data when the page was opened.
     'Mouseover' - Make the movie title bold when the mouse is on to make it easier for the user to see which item they are about to choose.
     'Click' - The information for the clicked movie is displayed in the box below the list of movies. 
-- one instance of array iteration - forEach
 
 ## API
 Using db.json file
