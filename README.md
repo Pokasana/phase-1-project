@@ -1,16 +1,16 @@
 # Phase 1 Project -  My Favorite Movie List
 
-Feature of the My Favorite Movie List
+#Feature of the My Favorite Movie List
 - This is a single page app to inroduce my favorite movies to the user
 - There is a list of 10 movies
 - By clicking one of the titles, user can see the minimal information about the selected movie - title, director and the year it went on screen.
 
-# How it works
-- When the start button is clicked, cards appear on the screen
-- When the player clicks a card, the card will turn over and the character image will be displayed
-- When the second card is clicked, the computer will assess whether the two cards are equal or not
-- If they are matching, these two cards will be hidden, if they are not matching, they will turn back over
-- Once all the cards are gone, the end of the game message will be shown
+#What's included in the code
+- Data access from a db.json file by using json-server
+- 10 objects with 3 attributes in db.json
+- Asynchronous data handling by useing JSON
+- 3 event listeners - DOMContentLoaded, click, and mouseover
+- one instance of array iteration - forEach
 
 ## API
 no-authorization API
