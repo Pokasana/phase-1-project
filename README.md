@@ -1,14 +1,14 @@
-# Phase 1 Project -  My Favorite Movie List
-This is a work for phase 1 project. I focused on keeping the structure as simple as possible to make required features that I added to this app easy to be shown.
+# Phase 1 Project -  Favorite Movie List
+This is a work for phase 1 project. I focused on keeping the structure as simple as possible to make the required features that I added to this app easy to be shown.
 
-# Feature of the My Favorite Movie List
-- Single page app to inroduce my favorite movies to the user
+# Feature of this application
+- Single page app to introduce my favorite movies to the user
 - There is a list of 10 movies
-- By clicking one of the titles, user can see the minimal information about the selected movie - title, director and the year it went on screen.
+- By clicking one of the titles, the user can see information about the selected movie - title, director and the year it was shown on screen.
 
 # Data and how it is handled
-- Asynchronous data handling by useing JSON
-- db.json has 10 movies that each of them has three items, title, director and year
+- Asynchronous data handling by using JSON
+- db.json has 10 movies that each of which has three items, title, director, and year
 
 # How this app meets the requirements
 The code includes...
