@@ -53,6 +53,24 @@ window.addEventListener("DOMContentLoaded", (event) => {
             });
         };
 
+        //Test code for eventListener invokation
+        // function highlightEvent(element) {
+        //     console.log('one')
+        //     element.addEventListener('mouseover', (e) => {
+        //         console.log('two')
+        //         e.target.onmouseover = event => {
+        //             console.log('three')
+        //             event.target.style.fontWeight = 'bold';
+        //         };
+        //         e.target.onmouseout = event => {
+        //             console.log('four')
+        //             event.target.style.fontWeight = '';
+        //         };
+        //         console.log('two-half')
+        //     });
+        //     console.log('five');
+        // };
+
     };
 
     //
