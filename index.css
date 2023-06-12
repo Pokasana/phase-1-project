@@ -21,7 +21,7 @@ p {
     background-color: rgb(197, 146, 255);
 }
 
-.movie-list-container ul li {
+.movie-list-container ul li{
     width: fit-content;
     margin: auto;
     text-indent: -2.4em;
@@ -32,3 +32,10 @@ ul {
     list-style-type: none;
 }
 
+/* li:hover {
+    font-weight: bold;
+} */
+
+/* .movie-package ul li :hover {
+    font-weight: bold;
+} */
