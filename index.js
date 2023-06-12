@@ -26,12 +26,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     //Create a list of movies
     function createMovieList(movie) {
-        console.log(movie);
         const container = document.querySelector('.movie-list-container');
         const ul = document.createElement('ul');
         const li = document.createElement('li');
         li.textContent = movie.title;
-        // li.setAttribute('role', 'button');
         highlightEvent(li);
         clickEvent(li, displayMovie, movie);
         ul.appendChild(li);
