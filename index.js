@@ -45,20 +45,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
         //Mouseover event
         function highlightEvent(element) {
             element.addEventListener('mouseover', (e) => {
-                e.target.onmouseover = event => event.target.style.fontWeight = 'bold';
-                e.target.onmouseout = event => event.target.style.fontWeight = '';        
+                e.target.style.fontWeight = 'bold';
+
+                setTimeout(() => {
+                    e.target.style.fontWeight = ''
+                }, 500);
             });
         };
-
-        // function highlightEvent(element) {
-        //     element.addEventListener('mouseover', (e) => {
-        //         e.target.style.fontWeight = 'bold';
-
-        //         setTimeout(() => {
-        //             e.target.style.fontWeight = ''
-        //         }, 500);
-        //     });
-        // };
 
     };
 
